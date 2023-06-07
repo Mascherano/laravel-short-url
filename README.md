@@ -17,12 +17,12 @@ para el acortador de url's.
 - Cambiar nombre del archivo .env.example a .env
 - Utilizar variables de conexión a mysql que tiene el archivo .env
 
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=nombredebasecreada
-    DB_USERNAME=nombredeusaurio
-    DB_PASSWORD=clavedeusuario
+    - DB_CONNECTION=mysql
+    - DB_HOST=127.0.0.1
+    - DB_PORT=3306
+    - DB_DATABASE=nombredebasecreada
+    - DB_USERNAME=nombredeusaurio
+    - DB_PASSWORD=clavedeusuario
 
 - Crear base de datos en mysql y dejar vacia, sin tablas creadas.
 - Ejecutar "composer install" dentro de la carpeta base del proyecto, esto descargara todas las dependencias del proyecto.
